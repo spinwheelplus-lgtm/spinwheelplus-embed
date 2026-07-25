@@ -1,11 +1,13 @@
 # Quick start
 
-Use this page when you already have a published wheel or mystery box on [SpinWheelPlus](https://spinwheelplus.com).
+Haven’t built anything yet? Start with [create and publish](create-and-publish.md) — [homepage](https://spinwheelplus.com/) for wheels, [/mystery-box](https://spinwheelplus.com/mystery-box) for boxes.
 
-**Copy-paste examples below** use live production content ([live examples](live-examples.md)):
+This page assumes you already published and turned on **Allow embed**.
+
+Examples below use real hosted content ([live examples](live-examples.md)):
 
 - Wheel: [Birthday - my store](https://spinwheelplus.com/wheel/birthday-my-store-wks8vf) — slug `birthday-my-store-wks8vf`
-- Mystery box: [Bookstore - Birthday](https://spinwheelplus.com/mystery-box/bookstore-birthday-8aj3sj) — slug `bookstore-birthday-8aj3sj`
+- Box: [Bookstore - Birthday](https://spinwheelplus.com/mystery-box/bookstore-birthday-8aj3sj) — slug `bookstore-birthday-8aj3sj`
 
 ## Before you embed
 
@@ -20,7 +22,7 @@ If embed is disabled, the iframe shows an “embed not allowed” message.
 - **Spin wheel:** open `/wheel/{slug}` → **Embed** → copy script or direct link.
 - **Mystery box:** open `/mystery-box/{slug}` → **Embed** → copy script or direct link.
 
-Copied snippets use your production domain from SpinWheelPlus (`NEXT_PUBLIC_SITE_URL` on their servers).
+Copied snippets from the SpinWheelPlus **Embed** dialog already point at `spinwheelplus.com`.
 
 ## Option B — Minimal script tag
 

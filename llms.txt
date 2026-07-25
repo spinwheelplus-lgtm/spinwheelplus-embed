@@ -5,7 +5,7 @@
 ## Canonical URLs
 
 - Product: https://spinwheelplus.com
-- This documentation repo: https://github.com/spinwheelplus/spinwheelplus-embed
+- This documentation repo: https://github.com/spinwheelplus-lgtm/spinwheelplus-embed
 - Loader script: https://spinwheelplus.com/embed/v1/loader.js
 
 ## Embed surfaces
@@ -29,17 +29,27 @@
 - Spin wheel: https://spinwheelplus.com/wheel/birthday-my-store-wks8vf (embed slug `birthday-my-store-wks8vf`)
 - Mystery box: https://spinwheelplus.com/mystery-box/bookstore-birthday-8aj3sj (embed slug `bookstore-birthday-8aj3sj`)
 
+## Audience
+
+Teachers, students, marketing, landing pages, team games, small events — English docs. Default: share a link on spinwheelplus.com. Embed when the widget should live on your own site. Guest forms and logs are up to the creator’s settings.
+
+## Feedback
+
+spinwheelplus@gmail.com
+
 ## Documentation (read in order)
 
-- [Live examples](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/live-examples.md)
-- [README](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/README.md)
-- [Quick start](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/quick-start.md)
-- [Spin wheel](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/spin-wheel.md)
-- [Mystery box](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/mystery-box.md)
-- [Loader reference](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/loader-reference.md)
-- [Iframe query params](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/iframe-query-params.md)
-- [postMessage API (wheels)](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/postmessage-api.md)
-- [CSP troubleshooting](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/csp-and-security.md)
+- [Audiences and use cases](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/audiences-and-use-cases.md)
+- [Create and publish](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/create-and-publish.md)
+- [Live examples](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/live-examples.md)
+- [README](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/README.md)
+- [Quick start](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/quick-start.md)
+- [Spin wheel](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/spin-wheel.md)
+- [Mystery box](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/mystery-box.md)
+- [Loader reference](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/loader-reference.md)
+- [Iframe query params](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/iframe-query-params.md)
+- [postMessage API (wheels)](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/postmessage-api.md)
+- [CSP troubleshooting](https://github.com/spinwheelplus-lgtm/spinwheelplus-embed/blob/main/docs/csp-and-security.md)
 
 ## Spin result events (wheels only, v1)
 

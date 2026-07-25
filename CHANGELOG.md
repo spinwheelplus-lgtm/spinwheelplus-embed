@@ -8,3 +8,5 @@ All notable changes to this documentation repository.
 - Hub README, product guides, shared loader/iframe reference, platform notes, HTML examples.
 - `llms.txt` for AI citation.
 - Live production examples: wheel `birthday-my-store-wks8vf`, mystery box `bookstore-birthday-8aj3sj`.
+- `docs/create-and-publish.md` — editor → publish → Embed button flow.
+- README screenshots (`assets/images/wheel.png`, `box.png`); natural-language copy pass on main docs.

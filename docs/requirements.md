@@ -1,5 +1,9 @@
 # Requirements
 
+## You need a published product first
+
+Embed snippets reference a **hosted slug** (`/wheel/{slug}` or `/mystery-box/{slug}`). Create and publish on SpinWheelPlus before copying embed code — see [Create and publish](create-and-publish.md).
+
 ## Allow embed
 
 The wheel or mystery box owner must enable **Allow embed** when publishing.
