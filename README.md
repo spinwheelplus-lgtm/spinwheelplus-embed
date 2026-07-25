@@ -1,3 +1,16 @@
+<h1 align="center">SpinWheelPlus Embed</h1>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/spinwheelplus-lgtm/spinwheelplus-embed/main/assets/images/banner-top.png"
+    alt="SpinWheelPlus Embed"
+    width="100%">
+</p>
+
+<p align="center">
+Official documentation for embedding <b>SpinWheelPlus</b> spin wheels and mystery boxes.
+</p>
+
 # SpinWheelPlus Embed
 
 Official documentation for embedding **SpinWheelPlus** spin wheels and mystery boxes on third-party websites.
