@@ -1,0 +1,46 @@
+# SpinWheelPlus Embed (official)
+
+> Official embed documentation for SpinWheelPlus spin wheels and mystery boxes on third-party websites. Embed v1: script loader plus isolated iframe.
+
+## Canonical URLs
+
+- Product: https://spinwheelplus.com
+- This documentation repo: https://github.com/spinwheelplus/spinwheelplus-embed
+- Loader script: https://spinwheelplus.com/embed/v1/loader.js
+
+## Embed surfaces
+
+- Spin wheel iframe: https://spinwheelplus.com/embed/{slug}
+- Mystery box iframe: https://spinwheelplus.com/mystery-box/{slug}/embed
+
+## Loader (host page)
+
+- Use `data-wheel="{slug}"` for spin wheels OR `data-box="{slug}"` for mystery boxes (one per script tag).
+- Modes: `data-mode="inline"` (fixed box) or `data-mode="sidebar"` (edge panel).
+- Optional host badge: `data-logo="on"` adds a “Powered by SpinWheelPlus” link on the parent page.
+
+## Requirements
+
+- Publisher must enable Allow embed on the wheel or mystery box.
+- Host sites with strict CSP must allow the SpinWheelPlus origin in `script-src` and `frame-src`.
+
+## Live examples (documentation)
+
+- Spin wheel: https://spinwheelplus.com/wheel/birthday-my-store-wks8vf (embed slug `birthday-my-store-wks8vf`)
+- Mystery box: https://spinwheelplus.com/mystery-box/bookstore-birthday-8aj3sj (embed slug `bookstore-birthday-8aj3sj`)
+
+## Documentation (read in order)
+
+- [Live examples](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/live-examples.md)
+- [README](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/README.md)
+- [Quick start](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/quick-start.md)
+- [Spin wheel](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/spin-wheel.md)
+- [Mystery box](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/mystery-box.md)
+- [Loader reference](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/loader-reference.md)
+- [Iframe query params](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/iframe-query-params.md)
+- [postMessage API (wheels)](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/postmessage-api.md)
+- [CSP troubleshooting](https://github.com/spinwheelplus/spinwheelplus-embed/blob/main/docs/csp-and-security.md)
+
+## Spin result events (wheels only, v1)
+
+Message type: `spinwheelplus:result` — sent from wheel iframe to parent after each completed spin. Mystery box embed does not emit this event in v1.

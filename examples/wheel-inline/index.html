@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SpinWheelPlus — wheel inline embed example</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 40rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .note {
+        font-size: 0.875rem;
+        color: #555;
+      }
+      .note a {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Spin wheel (inline)</h1>
+    <p class="note">
+      Live example:
+      <a href="https://spinwheelplus.com/wheel/birthday-my-store-wks8vf"
+        >Birthday - my store</a
+      >
+      — requires <strong>Allow embed</strong> on the wheel.
+    </p>
+
+    <div id="my-wheel"></div>
+
+    <script>
+      function onSpinWheelResult(payload) {
+        console.log("Spin result:", payload);
+      }
+    </script>
+
+    <script
+      async
+      src="https://spinwheelplus.com/embed/v1/loader.js"
+      data-wheel="birthday-my-store-wks8vf"
+      data-target="#my-wheel"
+      data-mode="inline"
+      data-width="400"
+      data-height="400"
+      data-sound="on"
+      data-logo="on"
+      data-bg="brand"
+      data-on-result="onSpinWheelResult"
+    ></script>
+  </body>
+</html>

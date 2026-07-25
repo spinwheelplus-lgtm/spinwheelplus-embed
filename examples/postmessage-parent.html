@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SpinWheelPlus — postMessage listener example</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 40rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      #log {
+        margin-top: 1rem;
+        padding: 0.75rem;
+        background: #f4f4f5;
+        border-radius: 0.5rem;
+        font-family: ui-monospace, monospace;
+        font-size: 0.8125rem;
+        min-height: 3rem;
+      }
+      .note a {
+        color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>postMessage (iframe only, spin wheel)</h1>
+    <p class="note">
+      Wheel:
+      <a href="https://spinwheelplus.com/wheel/birthday-my-store-wks8vf"
+        >Birthday - my store</a
+      >. Listens for <code>spinwheelplus:result</code> without
+      <code>loader.js</code>.
+    </p>
+
+    <iframe
+      id="wheel-frame"
+      src="https://spinwheelplus.com/embed/birthday-my-store-wks8vf?sound=on&width=400&height=400&bg=brand"
+      width="400"
+      height="400"
+      style="border: 0; background: transparent"
+      title="Spin wheel"
+      allow="autoplay"
+    ></iframe>
+
+    <div id="log">Waiting for a spin…</div>
+
+    <script>
+      var ORIGIN = "https://spinwheelplus.com";
+      var logEl = document.getElementById("log");
+
+      window.addEventListener("message", function (event) {
+        if (event.origin !== ORIGIN) return;
+        if (!event.data || event.data.type !== "spinwheelplus:result") return;
+        logEl.textContent = "Winner: " + event.data.item.name;
+      });
+    </script>
+  </body>
+</html>
